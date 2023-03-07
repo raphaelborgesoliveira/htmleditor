@@ -23,40 +23,28 @@
       <button onclick="execCommandWithArg('underline', null)">
         <u>
           <i class="fa fa-underline"></i>
-      </button>
       <button onclick="execCommandWithArg('insertOrderedList', null)">
         <i class="fa fa-list-ol"></i>
-      </button>
       <button onclick="execCommandWithArg('insertUnorderedList', null)">
         <i class="fa fa-list-ul"></i>
-      </button>
       <button onclick="execCommandWithArg('justifyLeft', null)">
         <i class="fa fa-align-left"></i>
-      </button>
       <button onclick="execCommandWithArg('justifyCenter', null)">
         <i class="fa fa-align-center"></i>
-      </button>
       <button onclick="execCommandWithArg('justifyRight', null)">
         <i class="fa fa-align-right"></i>
-      </button>
       <button onclick="execCommandWithArg('justifyFull', null)">
         <i class="fa fa-align-justify"></i>
-      </button>
       <button onclick="execCommandWithArg('indent', null)">
         <i class="fa fa-indent"></i>
-      </button>
       <button onclick="execCommandWithArg('outdent', null)">
         <i class="fa fa-outdent"></i>
-      </button>
       <button onclick="execCommandWithArg('createLink', prompt('Insira o URL:','http://'))">
         <i class="fa fa-link"></i>
-      </button>
       <button onclick="execCommandWithArg('unlink', null)">
         <i class="fa fa-unlink"></i>
-      </button>
       <button onclick="execCommandWithArg('insertImage', prompt('Insira a URL da imagem:','http://'))">
         <i class="fa fa-image"></i>
-      </button>
       <button onclick="breakLines()">Quebrar linhas</button>
       <button onclick="indentCode()" id="indent-code-button">Indentar</button>
     </div>
