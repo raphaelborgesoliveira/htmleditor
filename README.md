@@ -46,7 +46,6 @@
       <button onclick="execCommandWithArg('insertImage', prompt('Insira a URL da imagem:','http://'))">
         <i class="fa fa-image"></i>
       <button onclick="breakLines()">Quebrar linhas</button>
-      <button onclick="indentCode()" id="indent-code-button">Indentar</button>
     
     <script>
     
