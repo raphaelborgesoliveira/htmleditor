@@ -1,63 +1,7 @@
 <html>
   <head>
       <meta charset="utf-8">
-    <style>
-      .container {
-        display: flex;
-        height: 70%;
-        width: 100%;
-        
-      }
-      .left-pane, .right-pane {
-        flex: 1;
-        height: 100%;
-        border: 1px solid black;
-        padding: 10px;
-        overflow-y: scroll;
-        min-height: 600px;
-        
-      }
-      #text-pane {
-        min-height: 500px;
-      }
-      #code-pane {
-        background-color: #f3f3f3;
-        color: #333;
-        font-family: monospace;
-        min-height: 500px;
-      }
-      
-      #code-pane::selection {
-        background-color: #ddd;
-      }
-      
-      #code-pane .tag {
-        color: #000080;
-        font-weight: bold;
-      }
-      
-      #code-pane .attribute {
-        color: #095;
-      }
-      
-      #code-pane .value {
-        color: #069;
-      }   
-      .toolbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: lightgray;
-        padding: 10px;
-      }
-      .toolbar button {
-        padding: 10px;
-        margin: 10px;
-        border: none;
-        background-color: white;
-        cursor: pointer;
-      }
-    </style>
+
   </head>
   <body>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -72,10 +16,7 @@
       </div>
     </div>
     <div class="toolbar">
-      <button onclick="execCommandWithArg('bold', null)">
-        <b>
-            <i class="fas fa-bold"></i>
-      </button>
+      <button onclick="execCommandWithArg('bold', null)"><b><i class="fas fa-bold"></i></button>
       <button onclick="execCommandWithArg('italic', null)">
         <i>
           <i class="fa fa-italic"></i>
