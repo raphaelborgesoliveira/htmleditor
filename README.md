@@ -62,9 +62,10 @@
           codePane.textContent = textPane.innerHTML;
         }
         
-        function updateTextPane() {
-          textPane.innerHTML = codePane.textContent;
-        }
+      function updateTextPane() {
+        textPane.innerHTML = codePane.textContent.replace(/&nbsp;/g, " ");
+      }
+
         
         document.querySelector("#indent-code-button").addEventListener("click", indentCode);
 
