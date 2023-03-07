@@ -16,11 +16,10 @@
       </div>
     </div>
     <div class="toolbar">
-      <button onclick="execCommandWithArg('bold', null)"><b><i class="fas fa-bold"></i></button>
+      <button onclick="execCommandWithArg('bold', null)"><b><i class="fas fa-bold"></i>
       <button onclick="execCommandWithArg('italic', null)">
         <i>
           <i class="fa fa-italic"></i>
-      </button>
       <button onclick="execCommandWithArg('underline', null)">
         <u>
           <i class="fa fa-underline"></i>
@@ -61,7 +60,6 @@
       <button onclick="breakLines()">Quebrar linhas</button>
       <button onclick="indentCode()" id="indent-code-button">Indentar</button>
     </div>
-       <div> TESTEEEE css</div>
     
     <script>
     
