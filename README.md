@@ -58,15 +58,14 @@
         textPane.addEventListener("input", updateCodePane);
         codePane.addEventListener("input", updateTextPane);
         
-        function updateCodePane() {
-          codePane.textContent = textPane.innerHTML;
+        function updateTextPane() {
+          textPane.innerHTML = codePane.textContent.replace(/&nbsp;/g, " ");
         }
-        
-      function updateTextPane() {
-        textPane.innerHTML = codePane.textContent.replace(/&nbsp;/g, " ");
-      }
 
-        
+        function updateCodePane() {
+          codePane.textContent = textPane.innerHTML.replace(/&nbsp;/g, " ");
+        }
+
         document.querySelector("#indent-code-button").addEventListener("click", indentCode);
 
       
